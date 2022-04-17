@@ -20,6 +20,7 @@
 }
 
 .hero-section__btn {
+    @extend %button;
     padding: 10px 32px 10px 32px;
     margin: 0 auto;
     border: none;

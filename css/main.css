@@ -91,7 +91,7 @@ body {
   color: var(--accent-color);
 }
 
-.button {
+.submit__btn, .hero-section__btn, .footer-form__btn {
   display: flex;
   align-items: center;
   text-align: center;
@@ -107,7 +107,7 @@ body {
   border-radius: 4px;
 }
 
-.button:hover, .button:focus {
+.submit__btn:hover, .hero-section__btn:hover, .footer-form__btn:hover, .submit__btn:focus, .hero-section__btn:focus, .footer-form__btn:focus {
   background-color: #188cef;
 }
 
