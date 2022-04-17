@@ -48,12 +48,12 @@
         box-sizing: border-box;
         border-radius: 4px;
 
-        .form__input:hover~.form__icon,
-        .form__input:focus~.form__icon {
-            fill: var(--accent-color);
-        }
     }
-
+    
+    &:hover~.form__icon,
+    &:focus~.form__icon {
+        fill: var(--accent-color);
+    }
 }
 
 

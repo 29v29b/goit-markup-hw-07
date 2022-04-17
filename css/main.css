@@ -246,9 +246,8 @@ body {
   border-radius: 4px;
 }
 
-.form__input:hover .form__input:hover ~ .form__icon,
-.form__input:hover .form__input:focus ~ .form__icon, .form__input:focus .form__input:hover ~ .form__icon,
-.form__input:focus .form__input:focus ~ .form__icon {
+.form__input:hover ~ .form__icon,
+.form__input:focus ~ .form__icon {
   fill: var(--accent-color);
 }
 
